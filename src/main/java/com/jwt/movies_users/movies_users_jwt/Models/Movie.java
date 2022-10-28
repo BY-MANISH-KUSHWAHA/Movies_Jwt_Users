@@ -25,9 +25,9 @@ public class Movie {
     @Override
     public String toString() {
         return "{" +
-                "\"id\"=\"" + id +"\""+
-                ", \"name\"='" + name + '\'' +
-                ", \"releaseDate\"='" + releaseDate + '\''+
+                "\"id\":\"" + id +"\""+
+                ", \"name\":'" + name + '\'' +
+                ", \"releaseDate\":'" + releaseDate + '\''+
                 '}';
     }
 }
